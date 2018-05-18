@@ -13,4 +13,4 @@ elif platform == "darwin":
 elif platform == "win32":
     path.append("win32")
 
-from open3d import *
+from .linux.open3d import *
